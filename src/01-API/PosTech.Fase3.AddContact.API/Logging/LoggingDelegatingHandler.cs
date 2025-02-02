@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 
-namespace PosTech.Fase3.AddContact.API.Logging
+namespace PosTech.Hackathon.Pacientes.API.Logging
 {
     public class LoggingDelegatingHandler : DelegatingHandler
     {

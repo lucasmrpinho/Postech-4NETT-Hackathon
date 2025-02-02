@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PosTech.Fase3.AddContact.Domain.Responses
+namespace PosTech.Hackathon.Pacientes.Domain.Responses
 {
-    public class ContactResponse
+    public class PacienteResponse
     {
-        public ContactResponse(string messege)
+        public PacienteResponse(string messege)
         {
             Message = messege;
         }

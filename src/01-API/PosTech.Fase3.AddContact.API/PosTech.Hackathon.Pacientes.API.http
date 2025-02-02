@@ -1,0 +1,6 @@
+@PosTech.Hackathon.Pacientes.API_HostAddress = http://localhost:5075
+
+GET {{PosTech.Hackathon.Pacientes.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\03-Domain\PosTech.Fase3.AddContact.Domain.csproj" />
+    <ProjectReference Include="..\03-Domain\PosTech.Hackathon.Pacientes.Domain.csproj" />
   </ItemGroup>
 
 </Project>

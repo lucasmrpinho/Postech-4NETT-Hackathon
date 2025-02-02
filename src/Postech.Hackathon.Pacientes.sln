@@ -13,19 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Inf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Tests", "05-Tests", "{90FE3EFB-8559-4A3A-BBEF-B21F855AEEC0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Fase3.AddContact.Application", "02-Application\PosTech.Fase3.AddContact.Application.csproj", "{64BA60FD-F636-4CC4-8CB5-0801158EF2CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.Application", "02-Application\PosTech.Hackathon.Pacientes.Application.csproj", "{64BA60FD-F636-4CC4-8CB5-0801158EF2CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Fase3.AddContact.Domain", "03-Domain\PosTech.Fase3.AddContact.Domain.csproj", "{D65C9241-C8C3-4D6E-ADC1-160B9A711762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.Domain", "03-Domain\PosTech.Hackathon.Pacientes.Domain.csproj", "{D65C9241-C8C3-4D6E-ADC1-160B9A711762}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Fase3.AddContact.Infrastructure", "04-Infrastructure\PosTech.Fase3.AddContact.Infrastructure.csproj", "{58B9DEBF-ED74-446E-AB03-86ED6A6F460F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.Infrastructure", "04-Infrastructure\PosTech.Hackathon.Pacientes.Infrastructure.csproj", "{58B9DEBF-ED74-446E-AB03-86ED6A6F460F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Fase3.AddContact.UnitTests", "05-Tests\UnitTests\PosTech.Fase3.AddContact.UnitTests.csproj", "{705EFE37-DD56-4F85-ADC9-202A6E9D9868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.UnitTests", "05-Tests\UnitTests\PosTech.Hackathon.Pacientes.UnitTests.csproj", "{705EFE37-DD56-4F85-ADC9-202A6E9D9868}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-BuildingBlocks", "06-BuildingBlocks", "{3FF33D03-FF68-41D5-8F61-097FA2637D36}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Fase3.AddContact.API", "01-API\PosTech.Fase3.AddContact.API\PosTech.Fase3.AddContact.API.csproj", "{551088EF-8DFC-4A57-9542-CFB5A2F875AA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Fase3.AreaCode.API", "01-API\PosTech.Fase3.AreaCode.API\PosTech.Fase3.AreaCode.API.csproj", "{FDC10BE0-2807-42A9-97C2-B2E4A9B8D526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.API", "01-API\PosTech.Fase3.AddContact.API\PosTech.Hackathon.Pacientes.API.csproj", "{551088EF-8DFC-4A57-9542-CFB5A2F875AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +49,6 @@ Global
 		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDC10BE0-2807-42A9-97C2-B2E4A9B8D526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDC10BE0-2807-42A9-97C2-B2E4A9B8D526}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDC10BE0-2807-42A9-97C2-B2E4A9B8D526}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDC10BE0-2807-42A9-97C2-B2E4A9B8D526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,7 +59,6 @@ Global
 		{58B9DEBF-ED74-446E-AB03-86ED6A6F460F} = {F3C8DC04-3795-4CEC-8DD8-D1DD28228B4C}
 		{705EFE37-DD56-4F85-ADC9-202A6E9D9868} = {90FE3EFB-8559-4A3A-BBEF-B21F855AEEC0}
 		{551088EF-8DFC-4A57-9542-CFB5A2F875AA} = {8EB71EAA-9B1B-41A4-93FF-368159B5B973}
-		{FDC10BE0-2807-42A9-97C2-B2E4A9B8D526} = {8EB71EAA-9B1B-41A4-93FF-368159B5B973}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2E00B4A-A945-466B-871F-BD0113CB416A}

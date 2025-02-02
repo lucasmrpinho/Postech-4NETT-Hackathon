@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc;
-using PosTech.Fase3.AddContact.Domain.Exceptions;
-using PosTech.Fase3.AddContact.Domain.Responses;
+using PosTech.Hackathon.Pacientes.Domain.Exceptions;
+using PosTech.Hackathon.Pacientes.Domain.Responses;
 
-namespace PosTech.Fase3.AddContact.API.Filters
+namespace PosTech.Hackathon.Pacientes.API.Filters
 {
     public class ExceptionFilter : IExceptionFilter
     {

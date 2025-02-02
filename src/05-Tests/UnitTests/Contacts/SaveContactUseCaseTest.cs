@@ -1,36 +1,33 @@
 ﻿using Bogus;
 using FluentAssertions;
 using Moq;
-using Postech.GroupEight.TechChallenge.ContactManagement.Events;
-using PosTech.Fase3.AddContact.Application.UseCases;
-using PosTech.Fase3.AddContact.Domain.DTOs;
-using PosTech.Fase3.AddContact.Domain.Exceptions;
-using PosTech.Fase3.AddContact.Domain.Interfaces;
-using PosTech.Fase3.AddContact.Domain.Responses;
-using static PosTech.Fase3.AddContact.Domain.Utils.ErrorMessageHelper;
+using PosTech.GrupoOito.Hackathon.PacienteManagement.Events;
+using PosTech.Hackathon.Pacientes.Application.UseCases;
+using PosTech.Hackathon.Pacientes.Domain.Exceptions;
+using PosTech.Hackathon.Pacientes.Domain.Interfaces;
+using PosTech.Hackathon.Pacientes.Domain.Responses;
+using static PosTech.Hackathon.Pacientes.Domain.Utils.ErrorMessageHelper;
 
-namespace PosTech.Fase3.AddContact.UnitTests.Contacts
+namespace PosTech.Hackathon.Pacientes.UnitTests.Pacientes
 {
-    public class SaveContactUseCaseTest
+    public class SavePacienteUseCaseTest
     {
 
         private readonly Faker _faker = new("pt_BR");
 
-        [Fact(DisplayName = "Registrar um novo contato")]
+        [Fact(DisplayName = "Registrar um novo paciente")]
         [Trait("Action", "Handle")]
-        public async Task UseCase_NewContactRegistration_ShouldRegisterWithSuccess()
+        public async Task UseCase_NewPacienteRegistration_ShouldRegisterWithSuccess()
         {
             // Arrange
             var request = GetRequest();
-            Mock<ISaveContactPublisher> publisher = new();
-            publisher.Setup(c => c.PublishAsync(request)).ReturnsAsync(true);
+            Mock<ISavePacientePublisher> publisher = new();
+            publisher.Setup(c => c.PublishAsync(request)).ReturnsAsync(true);;
 
-            var client = GetClient(request);
-
-            SaveContactUseCase useCase = new(publisher.Object, client.Object);
+            SavePacienteUseCase useCase = new(publisher.Object);
 
             // Act
-            DefaultOutput<ContactResponse> output = await useCase.SaveNewContactAsync(request);
+            DefaultOutput<PacienteResponse> output = await useCase.SaveNewPacienteAsync(request);
 
             // Assert
             output.Success.Should().BeTrue();
@@ -38,151 +35,76 @@ namespace PosTech.Fase3.AddContact.UnitTests.Contacts
             
         }
 
-        [Fact(DisplayName = "Validar se o nome é igual o sobrenome")]
-        [Trait("Action", "UseCase")]
-        public async Task UseCase_NameAndLastNameEquals_ShouldRegisterWithError()
-        {
-            // Arrange
-            var request = GetRequest();
-            request.ContactLastName = request.ContactFirstName;
-
-            var publisher = GetMockPublisher(request);
-
-            var client = GetClient(request);
-
-            SaveContactUseCase useCase = new(publisher.Object, client.Object);
-
-            // Act            
-            DomainException exception = await Assert.ThrowsAsync<DomainException>(() => useCase.SaveNewContactAsync(request));
-
-            // Assert            
-            exception.Message.Should().NotBeNullOrEmpty();
-            exception.Message.Should().Be(CONTACT001);            
-        }
         ////CONTACT002
         [Theory(DisplayName = "Email inválido")]
         [Trait("Action", "UseCase")]
-        [InlineData("cleiton dias@gmail.com")]
-        [InlineData("jair.raposo@")]
-        [InlineData("milton.morgado4@hotmail")]
-        [InlineData("leticia-mariagmail.com")]
-        [InlineData("@yahoo.com")]
+        [InlineData("teste mail@gmail.com")]
+        [InlineData("teste.mail@")]
+        [InlineData("teste.mail9@hotmail")]
+        [InlineData("teste.com")]
+        [InlineData("@teste.com")]
         [InlineData("")]
         [InlineData(" ")]
         public async Task UseCase_EmailInvalid_ShouldError(string email)
         {
             // Arrange
             var request = GetRequest();
-            request.ContactEmail = email;
+            request.EmailPaciente = email;
 
             var publisher = GetMockPublisher(request);
 
-            var client = GetClient(request);
-
-            SaveContactUseCase useCase = new(publisher.Object, client.Object);
+            SavePacienteUseCase useCase = new(publisher.Object);
 
             // Act            
-            DomainException exception = await Assert.ThrowsAsync<DomainException>(() => useCase.SaveNewContactAsync(request));
+            DomainException exception = await Assert.ThrowsAsync<DomainException>(() => useCase.SaveNewPacienteAsync(request));
 
             // Assert
             exception.Message.Should().NotBeNullOrEmpty();
-            exception.Message.Should().Be(CONTACT002);                     
+            exception.Message.Should().Be(PACIENTE001);                     
         }
         
-        [Theory(DisplayName = "Telefone inválido")]
+        [Theory(DisplayName = "CPF inválido")]
         [Trait("Action", "UseCase")]
-        [InlineData("0123456789")]
-        [InlineData("1122334455")]
-        [InlineData("9876543200")]
-        [InlineData("1111111111")]
-        [InlineData("2222222222")]
-        [InlineData("123456789012")]
-        [InlineData("87654321A")]
-        [InlineData("8#7654321")]
-        [InlineData("(123)456-7890")]
-        [InlineData("987.654.3210")]
-        [InlineData("8765432@10")]
+        [InlineData("12345678999")]
+        [InlineData("123123123123123")]
+        [InlineData("00000000000")]
+        [InlineData("87654321A6")]
+        [InlineData("8#76543212")]
+        [InlineData("(123)456-7")]
         [InlineData("")]
         [InlineData(" ")]
-        public async Task UseCase_PhoneInvalid_ShouldError(string phone)
+        public async Task UseCase_CPFInvalid_ShouldError(string cpf)
         {
             // Arrange
             var request = GetRequest();
-            request.ContactPhoneNumber = phone;
+            request.CPFPaciente = cpf;
 
             var publisher = GetMockPublisher(request);
 
-            var client = GetClient(request);
-
-            SaveContactUseCase useCase = new(publisher.Object, client.Object);
+            SavePacienteUseCase useCase = new(publisher.Object);
 
             // Act            
-            DomainException exception = await Assert.ThrowsAsync<DomainException>(() => useCase.SaveNewContactAsync(request));
+            DomainException exception = await Assert.ThrowsAsync<DomainException>(() => useCase.SaveNewPacienteAsync(request));
 
             // Assert
             exception.Message.Should().NotBeNullOrEmpty();
-            exception.Message.Should().Be(CONTACT003);
+            exception.Message.Should().Be(PACIENTE002);
         }
-
-        [Fact(DisplayName = "Validar a área code")]
-        [Trait("Action", "UseCase")]
-        public async Task UseCase_AreaCodeInvalid_ShouldWithError()
+     
+        private Mock<ISavePacientePublisher>  GetMockPublisher(CreatePacienteEvent request)
         {
-            // Arrange
-            var request = GetRequest();
-            
-            var publisher = GetMockPublisher(request);
-
-            var client = GetClient(request, true);
-
-            SaveContactUseCase useCase = new(publisher.Object, client.Object);
-
-            // Act            
-            DomainException exception = await Assert.ThrowsAsync<DomainException>(() => useCase.SaveNewContactAsync(request));
-
-            // Assert            
-            exception.Message.Should().NotBeNullOrEmpty();
-            exception.Message.Should().Be("Área code não encontrada");
-        }
-
-        private Mock<ICodeAreaClient> GetClient(CreateContactEvent request, bool returnNull = false)
-        {
-            Mock<ICodeAreaClient> client = new();
-            int areaCode = int.Parse(request.ContactPhoneNumberAreaCode);
-            if (returnNull)
-            {
-                client.Setup(r => r.GetRegionByCodeAsync(areaCode));
-            }
-            else
-            {
-
-                client.Setup(r => r.GetRegionByCodeAsync(areaCode)).ReturnsAsync(
-                        new RegionDto()
-                        {
-                            Number = 11,
-                            Region = "São Paulo",
-                            State = "São Paulo"
-                        });
-            }
-            return client;
-        }
-        
-        private Mock<ISaveContactPublisher>  GetMockPublisher(CreateContactEvent request)
-        {
-            Mock<ISaveContactPublisher> publisher = new();
+            Mock<ISavePacientePublisher> publisher = new();
             publisher.Setup(c => c.PublishAsync(request)).ReturnsAsync(true);
             return publisher;
         }
-        private CreateContactEvent GetRequest()
+        private CreatePacienteEvent GetRequest()
         {
             return new()
             {
-
-                ContactFirstName = _faker.Name.FirstName(),
-                ContactLastName = _faker.Name.LastName(),
-                ContactEmail = _faker.Internet.Email(),
-                ContactPhoneNumber = _faker.Phone.PhoneNumber("9########"),
-                ContactPhoneNumberAreaCode = "11",
+                CPFPaciente = "72056525020",
+                NomePaciente = _faker.Name.FirstName(),
+                EmailPaciente = _faker.Internet.Email(),
+                SenhaPaciente = "Abcd7894",
             };
         }
     }

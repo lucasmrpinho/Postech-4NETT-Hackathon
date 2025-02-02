@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
-using PosTech.Fase3.AddContact.API.HealthChecks;
+using PosTech.Hackathon.Pacientes.API.HealthChecks;
 
-namespace PosTech.Fase3.AddContact.API.Setup
+namespace PosTech.Hackathon.Pacientes.API.Setup
 {
     [ExcludeFromCodeCoverage]
     internal static class HealthCheckSetup

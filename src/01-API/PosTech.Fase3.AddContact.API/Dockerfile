@@ -9,18 +9,18 @@ USER app
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
-COPY ["src/01-API/PosTech.Fase3.AddContact.API/PosTech.Fase3.AddContact.API.csproj", "src/01-API/PosTech.Fase3.AddContact.API/"]
+COPY ["src/01-API/PosTech.Hackathon.Pacientes.API/PosTech.Hackathon.Pacientes.API.csproj", "src/01-API/PosTech.Hackathon.Pacientes.API/"]
 
-RUN dotnet restore "src/01-API/PosTech.Fase3.AddContact.API/PosTech.Fase3.AddContact.API.csproj"
+RUN dotnet restore "src/01-API/PosTech.Hackathon.Pacientes.API/PosTech.Hackathon.Pacientes.API.csproj"
 COPY . .
-WORKDIR "/src/src/01-API/PosTech.Fase3.AddContact.API"
-RUN dotnet build "PosTech.Fase3.AddContact.API.csproj" -c $configuration -o /app/build
+WORKDIR "/src/src/01-API/PosTech.Hackathon.Pacientes.API"
+RUN dotnet build "PosTech.Hackathon.Pacientes.API.csproj" -c $configuration -o /app/build
 
 FROM build AS publish
 ARG configuration=Release
-RUN dotnet publish "PosTech.Fase3.AddContact.API.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "PosTech.Hackathon.Pacientes.API.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "PosTech.Fase3.AddContact.API.dll"]
+ENTRYPOINT ["dotnet", "PosTech.Hackathon.Pacientes.API.dll"]

@@ -2,7 +2,7 @@
 using Polly.Extensions.Http;
 using Serilog;
 
-namespace PosTech.Fase3.AddContact.API.PolicyHandler
+namespace PosTech.Hackathon.Pacientes.API.PolicyHandler
 {
     public static class PolicyHandler
     {

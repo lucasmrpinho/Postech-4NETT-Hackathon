@@ -1,15 +1,14 @@
 using MassTransit;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using MySql.Data.MySqlClient;
-using Postech.GroupEight.TechChallenge.ContactManagement.Events;
-using PosTech.Fase3.AddContact.API.Filters;
-using PosTech.Fase3.AddContact.API.Logging;
-using PosTech.Fase3.AddContact.API.Setup;
-using PosTech.Fase3.AddContact.API.PolicyHandler;
-using PosTech.Fase3.AddContact.Application.UseCases;
-using PosTech.Fase3.AddContact.Domain.Interfaces;
-using PosTech.Fase3.AddContact.Infrastructure.Clients;
-using PosTech.Fase3.AddContact.Infrastructure.Publications;
+using PosTech.GrupoOito.Hackathon.PacienteManagement.Events;
+using PosTech.Hackathon.Pacientes.API.Filters;
+using PosTech.Hackathon.Pacientes.API.Logging;
+using PosTech.Hackathon.Pacientes.API.Setup;
+using PosTech.Hackathon.Pacientes.API.PolicyHandler;
+using PosTech.Hackathon.Pacientes.Application.UseCases;
+using PosTech.Hackathon.Pacientes.Domain.Interfaces;
+using PosTech.Hackathon.Pacientes.Infrastructure.Publications;
 using Prometheus;
 using Serilog;
 using System.Data;
@@ -25,11 +24,6 @@ builder.Services.AddSwaggerGen();
 
 builder.Host.UseSerilog(SeriLogger.ConfigureLogger);
 
-builder.Services.AddHttpClient<ICodeAreaClient, CodeAreaClient>(c =>
-                c.BaseAddress = new Uri(configuration["ApiSettings:AreaCode"]!))
-                .AddHttpMessageHandler<LoggingDelegatingHandler>()
-                .AddPolicyHandler(PolicyHandler.GetCircuitBreakerPolicy())
-                .AddPolicyHandler(PolicyHandler.GetRetryPolicy());
 
 builder.Services.AddMassTransit(x =>
 {
@@ -41,12 +35,12 @@ builder.Services.AddMassTransit(x =>
             h.Password(configuration["rabbitmq:password"]!);
         });
 
-        cfg.ReceiveEndpoint("CreateContactEvent", e =>
+        cfg.ReceiveEndpoint("CreatePacienteEvent", e =>
         {
             e.ConfigureConsumeTopology = false; 
             e.Bind(configuration["rabbitmq:entityname"]!, s =>
             {
-                s.RoutingKey = "CreateContactEvent"; 
+                s.RoutingKey = "CreatePacienteEvent"; 
                 s.ExchangeType = "direct"; 
             });
         });
@@ -54,8 +48,8 @@ builder.Services.AddMassTransit(x =>
 });
 
 builder.Services.AddTransient<LoggingDelegatingHandler>();
-builder.Services.AddTransient<ISaveContactPublisher, SaveContactPublisher>();
-builder.Services.AddTransient<ISaveContactUseCase, SaveContactUseCase>();
+builder.Services.AddTransient<ISavePacientePublisher, SavePacientePublisher>();
+builder.Services.AddTransient<ISavePacienteUseCase, SavePacienteUseCase>();
 
 builder.Services.AddHealthChecks().AddRabbitMQHealthCheck();
 

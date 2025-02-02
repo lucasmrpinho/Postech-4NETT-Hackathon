@@ -2,7 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using MassTransit;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace PosTech.Fase3.AddContact.API.HealthChecks
+namespace PosTech.Hackathon.Pacientes.API.HealthChecks
 {
     [ExcludeFromCodeCoverage]
     internal class MassTransitRabbitMqHealthCheck(IBus bus) : IHealthCheck

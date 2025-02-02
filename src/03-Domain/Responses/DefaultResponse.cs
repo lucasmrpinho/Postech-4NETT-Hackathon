@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace PosTech.Fase3.AddContact.Domain.Responses
+namespace PosTech.Hackathon.Pacientes.Domain.Responses
 {
     /// <summary>
     /// Default return object from endpoints.

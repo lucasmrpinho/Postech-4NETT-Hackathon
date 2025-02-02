@@ -22,9 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\02-Application\PosTech.Fase3.AddContact.Application.csproj" />
-    <ProjectReference Include="..\..\03-Domain\PosTech.Fase3.AddContact.Domain.csproj" />
-    <ProjectReference Include="..\..\04-Infrastructure\PosTech.Fase3.AddContact.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\02-Application\PosTech.Hackathon.Pacientes.Application.csproj" />
+    <ProjectReference Include="..\..\03-Domain\PosTech.Hackathon.Pacientes.Domain.csproj" />
+    <ProjectReference Include="..\..\04-Infrastructure\PosTech.Hackathon.Pacientes.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

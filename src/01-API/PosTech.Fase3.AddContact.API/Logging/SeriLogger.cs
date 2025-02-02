@@ -1,6 +1,6 @@
 ﻿using Serilog;
 
-namespace PosTech.Fase3.AddContact.API.Logging
+namespace PosTech.Hackathon.Pacientes.API.Logging
 {
     public static class SeriLogger
     {

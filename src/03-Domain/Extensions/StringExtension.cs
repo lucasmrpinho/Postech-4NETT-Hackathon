@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace PosTech.Fase3.AddContact.Domain.Extensions
+namespace PosTech.Hackathon.Pacientes.Domain.Extensions
 {
     public static class StringExtension
     {
@@ -27,27 +27,30 @@ namespace PosTech.Fase3.AddContact.Domain.Extensions
             }
         }
 
-        public static bool IsValidPhone(this string numero)
+        public static bool IsValidCPF(this string cpf)
         {
-            if (string.IsNullOrWhiteSpace(numero))
+            if (string.IsNullOrWhiteSpace(cpf))
                 return false;
 
-            if (numero.Contains("123456789") || numero.Contains("98765432")
-                    || numero.Contains("11223344"))
+            cpf = Regex.Replace(cpf, "[^0-9]", ""); 
+
+            if (cpf.Length != 11 || cpf.Distinct().Count() == 1)
                 return false;
 
-            if (numero.All(c => c == numero[0]))
-                return false;
+            int[] multiplicador1 = { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
+            int[] multiplicador2 = { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
 
-            try
-            {
-                string pattern = @"^\d{9,}$";
-                return Regex.IsMatch(numero, pattern);
-            }
-            catch (RegexMatchTimeoutException)
-            {
-                return false;
-            }
+            string tempCpf = cpf.Substring(0, 9);
+            int soma = tempCpf.Select((t, i) => (t - '0') * multiplicador1[i]).Sum();
+            int resto = soma % 11;
+            int digito1 = resto < 2 ? 0 : 11 - resto;
+
+            tempCpf += digito1;
+            soma = tempCpf.Select((t, i) => (t - '0') * multiplicador2[i]).Sum();
+            resto = soma % 11;
+            int digito2 = resto < 2 ? 0 : 11 - resto;
+
+            return cpf.EndsWith(digito1.ToString() + digito2.ToString());
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PosTech.Fase3.AddContact.Domain.Exceptions
+namespace PosTech.Hackathon.Pacientes.Domain.Exceptions
 {
     [ExcludeFromCodeCoverage]
     public class DomainException(string message) : Exception(message)
