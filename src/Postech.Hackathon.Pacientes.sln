@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.UnitTests", "05-Tests\UnitTests\PosTech.Hackathon.Pacientes.UnitTests.csproj", "{705EFE37-DD56-4F85-ADC9-202A6E9D9868}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosTech.Hackathon.Pacientes.API", "01-API\PosTech.Fase3.AddContact.API\PosTech.Hackathon.Pacientes.API.csproj", "{551088EF-8DFC-4A57-9542-CFB5A2F875AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosTech.Hackathon.Pacientes.API", "01-API\PosTech.Hackathon.Pacientes.API.csproj", "{80092968-055A-4181-82DF-645A5C26E648}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,10 @@ Global
 		{705EFE37-DD56-4F85-ADC9-202A6E9D9868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{705EFE37-DD56-4F85-ADC9-202A6E9D9868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{705EFE37-DD56-4F85-ADC9-202A6E9D9868}.Release|Any CPU.Build.0 = Release|Any CPU
-		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{551088EF-8DFC-4A57-9542-CFB5A2F875AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80092968-055A-4181-82DF-645A5C26E648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80092968-055A-4181-82DF-645A5C26E648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80092968-055A-4181-82DF-645A5C26E648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80092968-055A-4181-82DF-645A5C26E648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,7 +58,7 @@ Global
 		{D65C9241-C8C3-4D6E-ADC1-160B9A711762} = {0A47C432-8DDD-41FA-9D82-997185642DD9}
 		{58B9DEBF-ED74-446E-AB03-86ED6A6F460F} = {F3C8DC04-3795-4CEC-8DD8-D1DD28228B4C}
 		{705EFE37-DD56-4F85-ADC9-202A6E9D9868} = {90FE3EFB-8559-4A3A-BBEF-B21F855AEEC0}
-		{551088EF-8DFC-4A57-9542-CFB5A2F875AA} = {8EB71EAA-9B1B-41A4-93FF-368159B5B973}
+		{80092968-055A-4181-82DF-645A5C26E648} = {8EB71EAA-9B1B-41A4-93FF-368159B5B973}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2E00B4A-A945-466B-871F-BD0113CB416A}

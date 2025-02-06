@@ -1,0 +1,48 @@
+2025-02-06 09:17:57.775 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-06 09:17:57.906 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 09:17:57.918 -03:00 [INF] Hosting environment: Development
+2025-02-06 09:17:57.921 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\PosTech.Fase3.AddContact.API
+2025-02-06 09:19:29.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-06 09:19:29.757 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 347.4207ms
+2025-02-06 09:19:29.862 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 09:19:29.873 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 11.2225ms
+2025-02-06 09:19:29.876 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-06 09:19:29.955 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.7095ms
+2025-02-06 09:19:30.041 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-06 09:19:30.059 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.3637ms
+2025-02-06 09:19:35.428 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-06 09:19:35.435 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 09:19:35.473 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 38.0486ms
+2025-02-06 09:19:35.497 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.1329ms
+2025-02-06 09:19:36.407 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 123
+2025-02-06 09:19:36.425 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 18.7862ms
+2025-02-06 14:29:25.547 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-06 14:29:25.600 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 14:29:25.605 -03:00 [INF] Hosting environment: Development
+2025-02-06 14:29:25.607 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\PosTech.Fase3.AddContact.API
+2025-02-06 14:33:18.068 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-06 14:33:18.133 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 14:33:18.137 -03:00 [INF] Hosting environment: Development
+2025-02-06 14:33:18.141 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\PosTech.Fase3.AddContact.API
+2025-02-06 14:34:01.178 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-06 14:34:01.534 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 363.2581ms
+2025-02-06 14:34:01.586 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 14:34:01.598 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-06 14:34:01.598 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 12.182ms
+2025-02-06 14:34:01.673 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.3337ms
+2025-02-06 14:34:01.884 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-06 14:34:01.898 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.7592ms
+2025-02-06 14:34:07.214 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 14:34:07.231 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 17.7081ms
+2025-02-06 14:54:09.595 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-06 14:54:09.681 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 14:54:09.686 -03:00 [INF] Hosting environment: Development
+2025-02-06 14:54:09.689 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-06 14:56:28.887 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-06 14:56:29.069 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 184.3897ms
+2025-02-06 14:56:29.120 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 14:56:29.136 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 16.2183ms
+2025-02-06 14:56:29.143 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-06 14:56:29.211 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.3283ms
+2025-02-06 14:56:29.249 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-06 14:56:29.263 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.2262ms

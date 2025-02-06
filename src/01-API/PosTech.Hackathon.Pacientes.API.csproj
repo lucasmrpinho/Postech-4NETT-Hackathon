@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..02-Application\PosTech.Hackathon.Pacientes.Application.csproj" />
+    <ProjectReference Include="..\02-Application\PosTech.Hackathon.Pacientes.Application.csproj" />
     <ProjectReference Include="..\03-Domain\PosTech.Hackathon.Pacientes.Domain.csproj" />
     <ProjectReference Include="..\04-Infrastructure\PosTech.Hackathon.Pacientes.Infrastructure.csproj" />
   </ItemGroup>
