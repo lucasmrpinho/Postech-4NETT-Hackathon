@@ -1,53 +1,52 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 
-namespace PosTech.Hackathon.Pacientes.API.Logging
+namespace PosTech.Hackathon.Pacientes.API.Logging;
+
+public class LoggingDelegatingHandler : DelegatingHandler
 {
-    public class LoggingDelegatingHandler : DelegatingHandler
+    private readonly ILogger<LoggingDelegatingHandler> logger;
+
+    public LoggingDelegatingHandler(ILogger<LoggingDelegatingHandler> logger)
     {
-        private readonly ILogger<LoggingDelegatingHandler> logger;
+        this.logger = logger;
+    }
 
-        public LoggingDelegatingHandler(ILogger<LoggingDelegatingHandler> logger)
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    {
+        try
         {
-            this.logger = logger;
-        }
+            logger.LogInformation("Sending request to {Url}", request.RequestUri);
 
-        protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-        {
-            try
+            var response = await base.SendAsync(request, cancellationToken);
+
+            if (response.IsSuccessStatusCode)
             {
-                logger.LogInformation("Sending request to {Url}", request.RequestUri);
-
-                var response = await base.SendAsync(request, cancellationToken);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    logger.LogInformation("Received a success response from {Url}", response.RequestMessage.RequestUri);
-                }
-                else
-                {
-                    logger.LogWarning("Received a non-success status code {StatusCode} from {Url}",
-                        (int)response.StatusCode, response.RequestMessage.RequestUri);
-                }
-
-                return response;
+                logger.LogInformation("Received a success response from {Url}", response.RequestMessage.RequestUri);
             }
-            catch (HttpRequestException ex)
-                when (ex.InnerException is SocketException se && se.SocketErrorCode == SocketError.ConnectionRefused)
+            else
             {
-                var hostWithPort = request.RequestUri.IsDefaultPort
-                    ? request.RequestUri.DnsSafeHost
-                    : $"{request.RequestUri.DnsSafeHost}:{request.RequestUri.Port}";
+                logger.LogWarning("Received a non-success status code {StatusCode} from {Url}",
+                    (int)response.StatusCode, response.RequestMessage.RequestUri);
+            }
 
-                logger.LogCritical(ex, @"Unable to connect to {Host}. Please check the 
+            return response;
+        }
+        catch (HttpRequestException ex)
+            when (ex.InnerException is SocketException se && se.SocketErrorCode == SocketError.ConnectionRefused)
+        {
+            var hostWithPort = request.RequestUri.IsDefaultPort
+                ? request.RequestUri.DnsSafeHost
+                : $"{request.RequestUri.DnsSafeHost}:{request.RequestUri.Port}";
+
+            logger.LogCritical(ex, @"Unable to connect to {Host}. Please check the 
                                         configuration to ensure the correct URL for the service 
                                         has been configured.", hostWithPort);
-            }
-
-            return new HttpResponseMessage(HttpStatusCode.BadGateway)
-            {
-                RequestMessage = request
-            };
         }
+
+        return new HttpResponseMessage(HttpStatusCode.BadGateway)
+        {
+            RequestMessage = request
+        };
     }
 }

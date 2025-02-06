@@ -2,33 +2,32 @@ using System.Diagnostics.CodeAnalysis;
 using MassTransit;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace PosTech.Hackathon.Pacientes.API.HealthChecks
+namespace PosTech.Hackathon.Pacientes.API.HealthChecks;
+
+[ExcludeFromCodeCoverage]
+internal class MassTransitRabbitMqHealthCheck(IBus bus) : IHealthCheck
 {
-    [ExcludeFromCodeCoverage]
-    internal class MassTransitRabbitMqHealthCheck(IBus bus) : IHealthCheck
+    private readonly IBus _bus = bus;
+
+    public async Task<HealthCheckResult> CheckHealthAsync(
+        HealthCheckContext context,
+        CancellationToken cancellationToken = default)
     {
-        private readonly IBus _bus = bus;
-
-        public async Task<HealthCheckResult> CheckHealthAsync(
-            HealthCheckContext context,
-            CancellationToken cancellationToken = default)
+        try
         {
-            try
-            {
-                ISendEndpoint sendEndpoint = await _bus.GetSendEndpoint(new Uri("queue:health-check"));
-                await sendEndpoint.Send(new HealthCheckMessage(), cancellationToken);
-                return HealthCheckResult.Healthy("RabbitMQ está disponível através do MassTransit.");
-            }
-            catch (Exception ex)
-            {
-                return HealthCheckResult.Unhealthy("RabbitMQ indisponível através do MassTransit.", ex);
-            }
+            ISendEndpoint sendEndpoint = await _bus.GetSendEndpoint(new Uri("queue:health-check"));
+            await sendEndpoint.Send(new HealthCheckMessage(), cancellationToken);
+            return HealthCheckResult.Healthy("RabbitMQ está disponível através do MassTransit.");
         }
-
-        [ExcludeFromCodeCoverage]
-        private class HealthCheckMessage
+        catch (Exception ex)
         {
-            public string Text { get; set; } = "Health Check";
+            return HealthCheckResult.Unhealthy("RabbitMQ indisponível através do MassTransit.", ex);
         }
+    }
+
+    [ExcludeFromCodeCoverage]
+    private class HealthCheckMessage
+    {
+        public string Text { get; set; } = "Health Check";
     }
 }

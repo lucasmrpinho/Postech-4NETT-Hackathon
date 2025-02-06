@@ -4,30 +4,23 @@ using PosTech.Hackathon.Pacientes.Domain.Exceptions;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
 using PosTech.Hackathon.Pacientes.Domain.Responses;
 
-namespace PosTech.Hackathon.Pacientes.Application.UseCases
+namespace PosTech.Hackathon.Pacientes.Application.UseCases;
+
+public class SavePacienteUseCase : ISavePacienteUseCase
 {
-    public class SavePacienteUseCase : ISavePacienteUseCase
+    public async Task<DefaultOutput<PacienteResponse>> SaveNewPacienteAsync(CreatePacienteEvent request)
     {
-        private readonly ISavePacientePublisher _publisher;
-        
-        public SavePacienteUseCase(ISavePacientePublisher publisher)
+
+        var validator = new PacienteValidator();
+        var validation = validator.Validate(request);
+        if (!validation.IsValid)
         {
-            _publisher = publisher;     
+            var error = validation.Errors.ToList().First();
+            throw new DomainException(error.ErrorMessage);
         }
-        public async Task<DefaultOutput<PacienteResponse>> SaveNewPacienteAsync(CreatePacienteEvent request)
-        {
+        return null;
+        //var published = await _publisher.PublishAsync(request);
+        //return new DefaultOutput<PacienteResponse>(published, new PacienteResponse("Registro salvo com sucesso"));
 
-            var validator = new PacienteValidator();
-            var validation = validator.Validate(request);
-            if (!validation.IsValid)
-            {
-                var error = validation.Errors.ToList().First();
-                throw new DomainException(error.ErrorMessage);
-            }
-
-            var published = await _publisher.PublishAsync(request);
-            return new DefaultOutput<PacienteResponse>(published, new PacienteResponse("Registro salvo com sucesso"));
-
-        }
     }
 }

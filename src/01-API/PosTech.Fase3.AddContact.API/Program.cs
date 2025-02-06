@@ -1,17 +1,10 @@
-using MassTransit;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using MySql.Data.MySqlClient;
-using PosTech.GrupoOito.Hackathon.PacienteManagement.Events;
-using PosTech.Hackathon.Pacientes.API.Filters;
 using PosTech.Hackathon.Pacientes.API.Logging;
 using PosTech.Hackathon.Pacientes.API.Setup;
-using PosTech.Hackathon.Pacientes.API.PolicyHandler;
 using PosTech.Hackathon.Pacientes.Application.UseCases;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
-using PosTech.Hackathon.Pacientes.Infrastructure.Publications;
 using Prometheus;
 using Serilog;
-using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://*:5011");
@@ -24,31 +17,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Host.UseSerilog(SeriLogger.ConfigureLogger);
 
-
-builder.Services.AddMassTransit(x =>
-{
-    x.UsingRabbitMq((context, cfg) =>
-    {
-        cfg.Host(configuration["rabbitmq:host"], "/", h =>
-        {
-            h.Username(configuration["rabbitmq:user"]!);
-            h.Password(configuration["rabbitmq:password"]!);
-        });
-
-        cfg.ReceiveEndpoint("CreatePacienteEvent", e =>
-        {
-            e.ConfigureConsumeTopology = false; 
-            e.Bind(configuration["rabbitmq:entityname"]!, s =>
-            {
-                s.RoutingKey = "CreatePacienteEvent"; 
-                s.ExchangeType = "direct"; 
-            });
-        });
-    });
-});
-
 builder.Services.AddTransient<LoggingDelegatingHandler>();
-builder.Services.AddTransient<ISavePacientePublisher, SavePacientePublisher>();
+//builder.Services.AddTransient<ISavePacientePublisher, SavePacientePublisher>();
 builder.Services.AddTransient<ISavePacienteUseCase, SavePacienteUseCase>();
 
 builder.Services.AddHealthChecks().AddRabbitMQHealthCheck();
