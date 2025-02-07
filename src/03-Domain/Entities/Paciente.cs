@@ -1,4 +1,6 @@
-﻿namespace PosTech.Hackathon.Pacientes.Domain.Entities;
+﻿using System.Text.RegularExpressions;
+
+namespace PosTech.Hackathon.Pacientes.Domain.Entities;
 
 public class Paciente
 {

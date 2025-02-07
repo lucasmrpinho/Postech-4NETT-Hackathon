@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PosTech.GrupoOito.Hackathon.PacienteManagement.Events;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
+using System.Net;
 
 namespace PosTech.Hackathon.Pacientes.API.Controllers;
 
@@ -18,12 +19,12 @@ public class PacientesController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> Post([FromBody] CreatePacienteEvent request)
+    public async Task<IActionResult> Post([FromBody] CreatePacienteEvent request)
     {
         _logger.LogInformation("Recebendo requisição POST em /pacientes");
         var result = await _useCase.SaveNewPacienteAsync(request);
         _logger.LogInformation("Resultado da operação: {Resultado}", result);
 
-        return Ok(result);
+        return StatusCode((int)HttpStatusCode.Created, result);
     }
 }

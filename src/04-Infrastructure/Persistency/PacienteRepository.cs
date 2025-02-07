@@ -1,5 +1,6 @@
 ﻿using MongoDB.Driver;
 using PosTech.Hackathon.Pacientes.Domain.Entities;
+using PosTech.Hackathon.Pacientes.Domain.Exceptions;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
 
 namespace PosTech.Hackathon.Pacientes.Infrastructure.Persistence;
@@ -15,8 +16,16 @@ public class PacienteRepository : IPacienteRepository
 
     public async Task AddPacienteAsync(Paciente paciente)
     {
-        await _pacienteCollection.InsertOneAsync(paciente);
+        try
+        {
+            await _pacienteCollection.InsertOneAsync(paciente);
+        }
+        catch (MongoWriteException ex) when (ex.WriteError.Category == ServerErrorCategory.DuplicateKey)
+        {
+            throw new PersistencyException("Já existe um paciente cadastrado com esse CPF.");
+        }
     }
+
 
     public async Task<List<Paciente>> GetAllPacientesAsync()
     {

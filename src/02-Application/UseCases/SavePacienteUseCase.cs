@@ -2,6 +2,7 @@
 using PosTech.Hackathon.Pacientes.Domain.Entities;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
 using PosTech.Hackathon.Pacientes.Domain.Responses;
+using System.Text.RegularExpressions;
 
 namespace PosTech.Hackathon.Pacientes.Application.UseCases;
 
@@ -24,7 +25,7 @@ public class SavePacienteUseCase : ISavePacienteUseCase
         var paciente = new Paciente
         {
             Nome = request.Nome,
-            Cpf = request.Cpf,
+            Cpf = NormalizeCpf(request.Cpf),
             Email = request.Email,
             Senha = request.Senha
         };
@@ -32,5 +33,9 @@ public class SavePacienteUseCase : ISavePacienteUseCase
         await _pacienteRepository.AddPacienteAsync(paciente);
 
         return new DefaultOutput<PacienteResponse>(System.Net.HttpStatusCode.Created, true, $"Paciente {paciente.Id} cadastrado com sucesso.");
+    }
+    private string NormalizeCpf(string cpf)
+    {
+        return cpf != null ? Regex.Replace(cpf, @"[.\-]", "") : string.Empty;
     }
 }

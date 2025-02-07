@@ -2,6 +2,7 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
+using PosTech.Hackathon.Pacientes.API.Filters;
 using PosTech.Hackathon.Pacientes.API.Logging;
 using PosTech.Hackathon.Pacientes.API.Setup;
 using PosTech.Hackathon.Pacientes.Application.UseCases;
@@ -24,7 +25,11 @@ var loggerFactory = LoggerFactory.Create(loggingBuilder =>
 });
 var logger = loggerFactory.CreateLogger("Startup");
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ExceptionFilter>();
+}); 
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
