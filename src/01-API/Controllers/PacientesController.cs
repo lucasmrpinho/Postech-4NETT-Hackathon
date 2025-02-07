@@ -21,9 +21,7 @@ public class PacientesController : ControllerBase
     public async Task<ActionResult> Post([FromBody] CreatePacienteEvent request)
     {
         _logger.LogInformation("Recebendo requisição POST em /pacientes");
-
         var result = await _useCase.SaveNewPacienteAsync(request);
-
         _logger.LogInformation("Resultado da operação: {Resultado}", result);
 
         return Ok(result);

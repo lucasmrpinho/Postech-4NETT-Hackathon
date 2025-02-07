@@ -1,9 +1,26 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace PosTech.Hackathon.Pacientes.Domain.Extensions;
 
 public static class StringExtension
 {
+    public static bool IsValidName(this string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            return false;
+
+        try
+        {
+            string pattern = @"^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$";
+            return Regex.IsMatch(name, pattern, RegexOptions.IgnoreCase);
+        }
+        catch (RegexMatchTimeoutException)
+        {
+            return false;
+        }
+    }
+
     public static bool IsValidEmail(this string email)
     {
         if (string.IsNullOrWhiteSpace(email))
@@ -11,7 +28,6 @@ public static class StringExtension
 
         try
         {
-            // Padrão de regex para validar o formato de e-mail
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern, RegexOptions.IgnoreCase);
         }

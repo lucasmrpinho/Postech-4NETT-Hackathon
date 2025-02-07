@@ -1,8 +1,11 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
 using PosTech.Hackathon.Pacientes.API.Logging;
 using PosTech.Hackathon.Pacientes.API.Setup;
 using PosTech.Hackathon.Pacientes.Application.UseCases;
+using PosTech.Hackathon.Pacientes.Application.Validators;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
 using PosTech.Hackathon.Pacientes.Infrastructure.Config;
 using PosTech.Hackathon.Pacientes.Infrastructure.Persistence;
@@ -20,21 +23,28 @@ var loggerFactory = LoggerFactory.Create(loggingBuilder =>
     loggingBuilder.SetMinimumLevel(LogLevel.Debug);
 });
 var logger = loggerFactory.CreateLogger("Startup");
-logger.LogInformation("Application is starting...");
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddFluentValidationAutoValidation()
+                .AddFluentValidationClientsideAdapters();
+
+builder.Services.AddValidatorsFromAssemblyContaining<PacienteValidator>();
+
 builder.Host.UseSerilog(SeriLogger.ConfigureLogger);
 
 builder.Services.AddTransient<LoggingDelegatingHandler>();
-//builder.Services.AddTransient<ISavePacientePublisher, SavePacientePublisher>();
 builder.Services.AddTransient<ISavePacienteUseCase, SavePacienteUseCase>();
 
 builder.Services.Configure<MongoDbSettings>(configuration.GetSection("MongoDbSettings"));
 builder.Services.AddSingleton<MongoDbContext>();
 builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
+
+builder.Services.AddValidatorsFromAssemblyContaining<PacienteValidator>();
+
 
 builder.Services.AddHealthChecks().AddRabbitMQHealthCheck();
 
@@ -53,9 +63,7 @@ var app = builder.Build();
 
 app.Use(async (context, next) =>
 {
-    logger.LogInformation("Incoming request: {Method} {Path}", context.Request.Method, context.Request.Path);
     await next.Invoke();
-    logger.LogInformation("Response status code: {StatusCode}", context.Response.StatusCode);
 });
 
 app.UseCors(corsPolicy);
@@ -69,11 +77,9 @@ app.UseMetricServer();
 app.UseHttpMetrics();
 app.UseSwagger();
 app.UseSwaggerUI();
-//app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
-logger.LogInformation("Application is running on port 5011...");
 app.Run();
 
 public partial class Program
