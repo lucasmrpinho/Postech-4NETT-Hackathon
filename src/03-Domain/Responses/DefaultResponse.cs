@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Net;
 using System.Text.Json.Serialization;
 
 namespace PosTech.Hackathon.Pacientes.Domain.Responses;
@@ -23,9 +25,15 @@ public record DefaultOutput<T>
         Success = success;
         Data = data;
     }
-
     public DefaultOutput(bool success, string message)
     {
+        Success = success;
+        Message = message;
+    }
+
+    public DefaultOutput(HttpStatusCode statusCode, bool success, string message)
+    {
+        StatusCode = statusCode;
         Success = success;
         Message = message;
     }
@@ -47,4 +55,10 @@ public record DefaultOutput<T>
     /// </summary>
     [JsonPropertyName("data")]
     public T? Data { get; init; }
+
+    /// <summary>
+    /// Set of StatusCode returned from the requested processing.
+    /// </summary>
+    [JsonPropertyName("statusCode")]
+    public HttpStatusCode StatusCode { get; init; }
 }

@@ -10,14 +10,14 @@ public class PacienteValidator : AbstractValidator<CreatePacienteEvent>
     public PacienteValidator()
     {
 
-        RuleFor(x => new { Email = x.EmailPaciente })
+        RuleFor(x => new { Email = x.Email })
              .Custom((value, context) =>
              {
                  if (!value.Email.IsValidEmail())
                      context.AddFailure(PACIENTE001);
              });
 
-        RuleFor(x => new { CPF = x.CPFPaciente })
+        RuleFor(x => new { CPF = x.Cpf })
              .Custom((value, context) =>
              {
                  if (!value.CPF.IsValidCPF())

@@ -1,6 +1,5 @@
 ﻿using PosTech.GrupoOito.Hackathon.PacienteManagement.Events;
-using PosTech.Hackathon.Pacientes.Application.Validators;
-using PosTech.Hackathon.Pacientes.Domain.Exceptions;
+using PosTech.Hackathon.Pacientes.Domain.Entities;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
 using PosTech.Hackathon.Pacientes.Domain.Responses;
 
@@ -8,19 +7,30 @@ namespace PosTech.Hackathon.Pacientes.Application.UseCases;
 
 public class SavePacienteUseCase : ISavePacienteUseCase
 {
+    private readonly IPacienteRepository _pacienteRepository;
+
+    public SavePacienteUseCase(IPacienteRepository pacienteRepository)
+    {
+        _pacienteRepository = pacienteRepository;
+    }
+
+    public async Task Execute(Paciente paciente)
+    {
+        await _pacienteRepository.AddPacienteAsync(paciente);
+    }
+
     public async Task<DefaultOutput<PacienteResponse>> SaveNewPacienteAsync(CreatePacienteEvent request)
     {
-
-        var validator = new PacienteValidator();
-        var validation = validator.Validate(request);
-        if (!validation.IsValid)
+        var paciente = new Paciente
         {
-            var error = validation.Errors.ToList().First();
-            throw new DomainException(error.ErrorMessage);
-        }
-        return null;
-        //var published = await _publisher.PublishAsync(request);
-        //return new DefaultOutput<PacienteResponse>(published, new PacienteResponse("Registro salvo com sucesso"));
+            Nome = request.Nome,
+            Cpf = request.Cpf,
+            Email = request.Email,
+            Senha = request.Senha
+        };
 
+        await _pacienteRepository.AddPacienteAsync(paciente);
+
+        return new DefaultOutput<PacienteResponse>(System.Net.HttpStatusCode.Created, true, $"Paciente {paciente.Id} cadastrado com sucesso.");
     }
 }
