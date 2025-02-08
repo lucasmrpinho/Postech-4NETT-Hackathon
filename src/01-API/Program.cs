@@ -4,7 +4,10 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
 using PosTech.Hackathon.Pacientes.API.Filters;
 using PosTech.Hackathon.Pacientes.API.Logging;
+using PosTech.Hackathon.Pacientes.API.PolicyHandler;
 using PosTech.Hackathon.Pacientes.API.Setup;
+using PosTech.Hackathon.Pacientes.Application.Services.Interfaces;
+using PosTech.Hackathon.Pacientes.Application.Services;
 using PosTech.Hackathon.Pacientes.Application.UseCases;
 using PosTech.Hackathon.Pacientes.Application.Validators;
 using PosTech.Hackathon.Pacientes.Domain.Interfaces;
@@ -50,8 +53,13 @@ builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
 
 builder.Services.AddValidatorsFromAssemblyContaining<PacienteValidator>();
 
-
 builder.Services.AddHealthChecks().AddRabbitMQHealthCheck();
+
+builder.Services.AddHttpClient<IAutenticacaoClient, AutenticacaoClient>(c =>
+                c.BaseAddress = new Uri(configuration["Autenticacao"]!))
+                .AddHttpMessageHandler<LoggingDelegatingHandler>()
+                .AddPolicyHandler(PolicyHandler.GetCircuitBreakerPolicy())
+                .AddPolicyHandler(PolicyHandler.GetRetryPolicy());
 
 var corsPolicy = "_myCorsPolicy";
 builder.Services.AddCors(options =>
