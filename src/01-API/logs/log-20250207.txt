@@ -1,0 +1,970 @@
+2025-02-07 10:57:06.562 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 10:57:06.615 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 10:57:06.618 -03:00 [INF] Hosting environment: Development
+2025-02-07 10:57:06.620 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 11:00:41.774 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 11:00:41.835 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 70.2023ms
+2025-02-07 11:00:41.873 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 11:00:41.890 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 16.8289ms
+2025-02-07 11:00:43.429 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 11:00:43.811 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 382.2224ms
+2025-02-07 11:00:43.863 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 11:00:43.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 11:00:43.882 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 18.6108ms
+2025-02-07 11:00:43.945 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.9968ms
+2025-02-07 11:00:44.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 11:00:44.148 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.4228ms
+2025-02-07 11:00:44.252 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 11:00:44.273 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8961ms
+2025-02-07 11:00:44.319 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 11:00:44.329 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 9.2458ms
+2025-02-07 11:00:44.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 11:00:44.439 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4883ms
+2025-02-07 11:00:51.782 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 11:00:51.794 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 12.7868ms
+2025-02-07 11:26:42.158 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 11:26:42.185 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 26.2835ms
+2025-02-07 11:26:52.241 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 11:26:52.247 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 6.3831ms
+2025-02-07 11:28:13.537 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/pacientes - null null
+2025-02-07 11:28:13.556 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/pacientes - 307 0 null 21.5534ms
+2025-02-07 11:28:33.988 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 110
+2025-02-07 11:28:34.005 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 16.8934ms
+2025-02-07 11:55:00.348 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/ - null null
+2025-02-07 11:55:00.382 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/ - 307 0 null 34.2026ms
+2025-02-07 11:56:23.817 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 11:56:23.898 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 11:56:23.901 -03:00 [INF] Hosting environment: Development
+2025-02-07 11:56:23.905 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 11:59:54.101 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 11:59:54.425 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 330.6905ms
+2025-02-07 11:59:54.507 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 11:59:54.518 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 11.6844ms
+2025-02-07 11:59:54.528 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 11:59:54.536 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 11:59:54.552 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 16.2827ms
+2025-02-07 11:59:54.602 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.7623ms
+2025-02-07 11:59:54.683 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 11:59:54.698 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.4027ms
+2025-02-07 12:00:00.412 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:00:00.450 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2737ms
+2025-02-07 12:00:01.767 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 123
+2025-02-07 12:00:01.792 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 25.288ms
+2025-02-07 12:01:12.994 -03:00 [INF] Now listening on: http://[::]:5021
+2025-02-07 12:01:13.066 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:01:13.069 -03:00 [INF] Hosting environment: Development
+2025-02-07 12:01:13.072 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 12:01:53.204 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-02-07 12:01:53.638 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 443.1458ms
+2025-02-07 12:01:53.693 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui.css - null null
+2025-02-07 12:01:53.706 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-bundle.js - null null
+2025-02-07 12:01:53.715 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:01:53.715 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-07 12:01:53.745 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 29.5961ms
+2025-02-07 12:01:53.798 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-07 12:01:53.798 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-07 12:01:53.800 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-07 12:01:53.810 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 94.8309ms
+2025-02-07 12:01:53.810 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui.css - 200 143943 text/css 117.4462ms
+2025-02-07 12:01:53.811 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 105.4933ms
+2025-02-07 12:01:53.825 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-02-07 12:01:53.866 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:01:53.867 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-bundle.js - null null
+2025-02-07 12:01:53.873 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 7.625ms
+2025-02-07 12:01:53.888 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.8644ms
+2025-02-07 12:01:53.897 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-07 12:01:53.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 52.329ms
+2025-02-07 12:01:54.137 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-02-07 12:01:54.150 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.7234ms
+2025-02-07 12:01:54.151 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/favicon-32x32.png - null null
+2025-02-07 12:01:54.164 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-07 12:01:54.168 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/favicon-32x32.png - 200 628 image/png 16.7306ms
+2025-02-07 12:01:57.293 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-07 12:01:57.293 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-02-07 12:01:57.307 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-07 12:01:57.313 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 20.031ms
+2025-02-07 12:01:57.324 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0508ms
+2025-02-07 12:02:10.890 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5021/pacientes - application/json 120
+2025-02-07 12:02:10.905 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5021/pacientes - 307 0 null 14.8111ms
+2025-02-07 12:09:36.837 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 12:09:36.892 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:09:36.894 -03:00 [INF] Hosting environment: Development
+2025-02-07 12:09:36.897 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 12:10:16.847 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 12:10:17.204 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 364.6674ms
+2025-02-07 12:10:17.312 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:10:17.321 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 9.3069ms
+2025-02-07 12:10:17.323 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:10:17.384 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.0988ms
+2025-02-07 12:10:17.462 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 12:10:17.475 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9239ms
+2025-02-07 12:10:23.169 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:10:23.172 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:10:23.179 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 9.6869ms
+2025-02-07 12:10:23.230 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.5089ms
+2025-02-07 12:10:44.190 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 12:10:44.204 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 15.5477ms
+2025-02-07 12:16:42.711 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 12:16:42.777 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:16:42.780 -03:00 [INF] Hosting environment: Development
+2025-02-07 12:16:42.782 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 12:17:54.893 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 12:17:55.085 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 195.0309ms
+2025-02-07 12:17:55.126 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:17:55.130 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:17:55.141 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 10.7641ms
+2025-02-07 12:17:55.186 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.2599ms
+2025-02-07 12:17:55.292 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 12:17:55.306 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0442ms
+2025-02-07 12:18:00.082 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 12:18:00.096 -03:00 [INF] CORS policy execution successful.
+2025-02-07 12:18:00.106 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 24.6266ms
+2025-02-07 12:20:54.113 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/pacientes - null null
+2025-02-07 12:20:54.124 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/pacientes - 307 0 null 10.5487ms
+2025-02-07 12:20:56.145 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/pacientes - null null
+2025-02-07 12:20:56.153 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/pacientes - 307 0 null 8.281ms
+2025-02-07 12:23:28.802 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 12:23:28.904 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:23:28.908 -03:00 [INF] Hosting environment: Development
+2025-02-07 12:23:28.911 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 12:23:46.209 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 12:23:46.388 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 183.672ms
+2025-02-07 12:23:46.425 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:23:46.425 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:23:46.441 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 15.4952ms
+2025-02-07 12:23:46.484 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.3998ms
+2025-02-07 12:23:46.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 12:23:46.649 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.7515ms
+2025-02-07 12:24:07.360 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 148
+2025-02-07 12:24:07.376 -03:00 [INF] CORS policy execution successful.
+2025-02-07 12:24:07.386 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 307 0 null 25.6739ms
+2025-02-07 12:25:04.715 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 12:25:04.782 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:25:04.784 -03:00 [INF] Hosting environment: Development
+2025-02-07 12:25:04.787 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 12:25:32.470 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 12:25:32.779 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 318.6111ms
+2025-02-07 12:25:32.819 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:25:32.819 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:25:32.831 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 12.2488ms
+2025-02-07 12:25:32.870 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.9283ms
+2025-02-07 12:25:32.902 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 12:25:32.917 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.7205ms
+2025-02-07 12:25:36.734 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 123
+2025-02-07 12:25:36.751 -03:00 [INF] CORS policy execution successful.
+2025-02-07 12:25:36.766 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 12:25:36.810 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 12:25:37.291 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 12:25:37.294 -03:00 [INF] Dados recebidos: CPF=750.121.148-32, Nome=string, Email=string
+2025-02-07 12:25:37.423 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 598.3588ms
+2025-02-07 12:25:37.428 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 12:25:37.464 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at PosTech.Hackathon.Pacientes.Application.UseCases.SavePacienteUseCase.SaveNewPacienteAsync(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\02-Application\UseCases\SavePacienteUseCase.cs:line 25
+   at PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Controllers\PacientesController.cs:line 26
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Program.<>c__DisplayClass0_0.<<<Main>$>b__2>d.MoveNext() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Program.cs:line 57
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-07 12:25:37.513 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 500 null text/plain; charset=utf-8 779.2947ms
+2025-02-07 12:29:35.823 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 12:29:35.887 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 12:29:35.890 -03:00 [INF] Hosting environment: Development
+2025-02-07 12:29:35.893 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 12:29:45.502 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 12:29:45.841 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 346.311ms
+2025-02-07 12:29:45.892 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 12:29:45.892 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 12:29:45.903 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 11.8632ms
+2025-02-07 12:29:45.949 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.4157ms
+2025-02-07 12:29:45.981 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 12:29:45.997 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.2341ms
+2025-02-07 12:29:50.782 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 12:29:50.807 -03:00 [INF] CORS policy execution successful.
+2025-02-07 12:29:50.823 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 12:29:50.873 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 12:29:51.345 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 12:29:51.351 -03:00 [INF] Dados recebidos: CPF=31838584210, Nome=string, Email=string
+2025-02-07 12:29:51.952 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente string cadastrado com sucesso., Data =  }
+2025-02-07 12:29:51.972 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 12:29:51.991 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 1105.0856ms
+2025-02-07 12:29:51.998 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 12:29:52.011 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 1229.0224ms
+2025-02-07 12:31:03.455 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 12:31:03.461 -03:00 [INF] CORS policy execution successful.
+2025-02-07 12:31:03.464 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 12:31:03.468 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 12:31:05.680 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 12:31:06.198 -03:00 [INF] Dados recebidos: CPF=31838584210, Nome=string, Email=string
+2025-02-07 12:31:24.559 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente string cadastrado com sucesso., Data =  }
+2025-02-07 12:31:25.308 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 12:31:30.072 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 26599.6101ms
+2025-02-07 12:31:30.076 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 12:31:30.079 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 26624.8377ms
+2025-02-07 14:21:37.193 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:21:37.253 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:21:37.256 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:21:37.258 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 14:22:20.411 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 14:22:20.450 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:22:20.467 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:22:20.488 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:22:20.757 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 14:22:20.796 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 301.4843ms
+2025-02-07 14:22:20.802 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:22:20.811 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 404.6175ms
+2025-02-07 14:24:30.306 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:24:30.372 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:24:30.375 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:24:30.378 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 14:26:29.829 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 14:26:29.866 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:26:29.880 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:26:29.902 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:26:30.129 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 14:26:30.171 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 250.0631ms
+2025-02-07 14:26:30.175 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:26:30.185 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 359.8682ms
+2025-02-07 14:26:41.575 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 14:26:41.678 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 102.7787ms
+2025-02-07 14:26:41.742 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 14:26:41.753 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 11.2128ms
+2025-02-07 14:26:41.906 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 14:26:41.906 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 14:26:41.925 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 19.5276ms
+2025-02-07 14:26:41.963 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.849ms
+2025-02-07 14:26:42.138 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 14:26:42.154 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.0004ms
+2025-02-07 14:28:06.308 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:28:06.374 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:28:06.377 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:28:06.380 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 14:29:29.653 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 14:29:29.691 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:29:29.705 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:29:29.729 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:29:29.961 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 14:29:29.998 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 262.2031ms
+2025-02-07 14:29:30.002 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:29:30.013 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 364.3268ms
+2025-02-07 14:30:03.406 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 14:30:03.515 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 109.0051ms
+2025-02-07 14:30:03.583 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 14:30:03.583 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 14:30:03.611 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 28.5531ms
+2025-02-07 14:30:03.659 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.8238ms
+2025-02-07 14:30:03.692 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 14:30:03.709 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.4021ms
+2025-02-07 14:30:07.999 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 14:30:08.009 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:30:08.011 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:30:08.015 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:30:16.018 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 14:30:19.879 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 8d182da7-2661-4ced-95b6-0d3fdd34a075 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 14:30:19.885 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:30:19.900 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 11881.0714ms
+2025-02-07 14:30:19.904 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:30:19.910 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 11910.8419ms
+2025-02-07 14:30:42.848 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 214
+2025-02-07 14:30:42.860 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:30:42.863 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:30:42.865 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:30:42.873 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 14:30:42.877 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 7.535ms
+2025-02-07 14:30:42.880 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:30:42.883 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 35.1966ms
+2025-02-07 14:31:00.111 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 120
+2025-02-07 14:31:00.115 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:31:00.118 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:31:00.121 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:31:00.126 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 14:31:00.129 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 4.3291ms
+2025-02-07 14:31:00.132 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:31:00.135 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 24.7266ms
+2025-02-07 14:31:36.434 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 116
+2025-02-07 14:31:36.446 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:31:36.448 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:31:36.451 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:31:39.810 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 14:31:40.602 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 27784d87-05fb-4c49-80e7-0c9442fc9f3e cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 14:31:40.606 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:31:40.610 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 4154.715ms
+2025-02-07 14:31:40.614 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:31:40.617 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 4182.8601ms
+2025-02-07 14:45:48.614 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:45:48.674 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:45:48.680 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:45:48.683 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 14:46:30.231 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 14:46:30.387 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 160.2187ms
+2025-02-07 14:46:30.436 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 14:46:30.442 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 14:46:30.457 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 22.1303ms
+2025-02-07 14:46:30.510 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.1418ms
+2025-02-07 14:46:30.602 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 14:46:30.615 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.134ms
+2025-02-07 14:46:34.183 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 14:46:34.191 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:46:34.200 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:46:34.219 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:46:34.371 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 14:47:24.716 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 4d85fc9d-23d8-4f32-8ed1-7f55bbd34552 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 14:47:24.723 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:47:24.739 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 50514.2094ms
+2025-02-07 14:47:24.743 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:47:24.750 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 50568.3088ms
+2025-02-07 14:49:07.893 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:49:07.966 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:49:07.969 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:49:07.971 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 14:49:17.100 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 14:49:17.144 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:49:17.160 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:49:17.190 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:49:21.563 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 14:51:14.813 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:51:14.876 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:51:14.879 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:51:14.881 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 14:51:39.231 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 14:51:39.280 -03:00 [INF] CORS policy execution successful.
+2025-02-07 14:51:39.293 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:51:39.318 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 14:51:42.494 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 14:51:54.530 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 448bb044-6700-49ae-af2a-7b8c90c157f2 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 14:51:59.695 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 14:52:02.756 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 23431.7022ms
+2025-02-07 14:52:02.759 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 14:52:02.769 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 23543.0919ms
+2025-02-07 14:59:51.098 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 14:59:51.167 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 14:59:51.171 -03:00 [INF] Hosting environment: Development
+2025-02-07 14:59:51.208 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:00:01.717 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 15:00:01.757 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:00:01.772 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:00:01.795 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:00:02.075 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:00:02.102 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 300.9356ms
+2025-02-07 15:00:02.106 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:00:02.114 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 401.9257ms
+2025-02-07 15:03:16.264 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:03:16.329 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:03:16.333 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:03:16.336 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:03:57.997 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 15:03:58.044 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:03:58.060 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:03:58.089 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:03:58.355 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:03:58.381 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 285.4396ms
+2025-02-07 15:03:58.384 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:03:58.393 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 401.4914ms
+2025-02-07 15:09:29.885 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 15:09:29.893 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:09:29.906 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:09:29.910 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:09:29.919 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:09:29.924 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 8.8791ms
+2025-02-07 15:09:29.928 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:09:29.932 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 48.1427ms
+2025-02-07 15:09:43.928 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 86
+2025-02-07 15:09:43.935 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:09:43.938 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:09:43.941 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:09:43.947 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:09:43.950 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 5.8294ms
+2025-02-07 15:09:43.953 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:09:43.955 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 27.2717ms
+2025-02-07 15:11:19.962 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:11:20.035 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:11:20.039 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:11:20.042 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:15:19.404 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 86
+2025-02-07 15:15:19.451 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:15:19.471 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:15:19.500 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:15:19.848 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:15:19.881 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 373.3047ms
+2025-02-07 15:15:19.886 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:15:19.900 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 500.9887ms
+2025-02-07 15:15:36.100 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 89
+2025-02-07 15:15:36.108 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:15:36.127 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:15:36.132 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:15:36.140 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:15:36.144 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 7.122ms
+2025-02-07 15:15:36.148 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:15:36.152 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 52.5842ms
+2025-02-07 15:17:33.246 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:17:33.342 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:17:33.349 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:17:33.355 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:17:49.838 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 89
+2025-02-07 15:17:49.890 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:17:49.912 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:17:49.948 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:17:50.391 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:17:50.439 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 479.3306ms
+2025-02-07 15:17:50.445 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:17:50.460 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 630.0552ms
+2025-02-07 15:18:08.863 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 89
+2025-02-07 15:18:08.883 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:18:08.893 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:18:08.901 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:18:08.912 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:18:08.917 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 8.103ms
+2025-02-07 15:18:08.923 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:18:08.928 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 65.3596ms
+2025-02-07 15:18:30.952 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 96
+2025-02-07 15:18:30.960 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:18:30.965 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:18:30.970 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:18:35.330 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:18:37.695 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 6ce834f7-8585-43a8-acef-c6e716edb0ee cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 15:18:37.702 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 15:18:37.725 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 6748.6819ms
+2025-02-07 15:18:37.731 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:18:37.742 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 6789.7457ms
+2025-02-07 15:35:12.684 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:35:12.757 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:35:12.762 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:35:12.765 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:35:37.443 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 15:35:37.645 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 206.825ms
+2025-02-07 15:35:37.691 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 15:35:37.701 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 10.2818ms
+2025-02-07 15:35:37.708 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 15:35:37.753 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.8488ms
+2025-02-07 15:35:37.882 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 15:35:37.904 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.1591ms
+2025-02-07 15:35:53.491 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 102
+2025-02-07 15:35:53.500 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:35:53.507 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:35:53.536 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:36:07.476 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 13932.9706ms
+2025-02-07 15:36:07.481 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:36:07.497 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Driver.MongoCommandException: Command createIndexes failed: Index build failed: 00e50ff4-8e04-4af5-b73c-f32372082f37: Collection PacientesDB.Pacientes ( 96058aa9-0e85-43fb-8c4c-1c27d35242c5 ) :: caused by :: E11000 duplicate key error collection: PacientesDB.Pacientes index: Cpf_1 dup key: { Cpf: null }.
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.SendMessageAndProcessResponse(CommandRequestMessage message, Int32 responseTo, IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocol[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.Command[TResult](ICoreSession session, ReadPreference readPreference, DatabaseNamespace databaseNamespace, BsonDocument command, IEnumerable`1 commandPayloads, IElementNameValidator commandValidator, BsonDocument additionalOptions, Action`1 postWriteAction, CommandResponseHandling responseHandling, IBsonSerializer`1 resultSerializer, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelHandle channel, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelSource channelSource, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.WriteCommandOperation`1.Execute(IWriteBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.CreateIndexesOperation.Execute(IWriteBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteWriteOperation[TResult](IWriteBinding binding, IWriteOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteWriteOperation[TResult](IClientSessionHandle session, IWriteOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.MongoIndexManager.CreateMany(IClientSessionHandle session, IEnumerable`1 models, CreateManyIndexesOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.MongoIndexManager.<>c__DisplayClass9_0.<CreateMany>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.MongoIndexManager.CreateMany(IEnumerable`1 models, CreateManyIndexesOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoIndexManagerBase`1.CreateOne(CreateIndexModel`1 model, CreateOneIndexOptions options, CancellationToken cancellationToken)
+   at PosTech.Hackathon.Pacientes.Infrastructure.Persistence.MongoDbContext.CreateUniqueIndex() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\04-Infrastructure\Persistency\MongoDbContext.cs:line 32
+   at PosTech.Hackathon.Pacientes.Infrastructure.Persistence.MongoDbContext..ctor(IOptions`1 settings) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\04-Infrastructure\Persistency\MongoDbContext.cs:line 17
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Program.cs:line 66
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-07 15:36:07.541 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 500 null text/plain; charset=utf-8 14050.8486ms
+2025-02-07 15:37:52.504 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:37:52.562 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:37:52.567 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:37:52.569 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:37:59.461 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 102
+2025-02-07 15:37:59.502 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:37:59.519 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:37:59.543 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:38:02.735 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:38:12.684 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente bdd84b3a-4985-4668-9c6a-f2ce643d1633 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 15:38:12.690 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 15:38:12.705 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 13156.2209ms
+2025-02-07 15:38:12.708 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:38:12.717 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 13264.4688ms
+2025-02-07 15:38:18.311 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 102
+2025-02-07 15:38:18.319 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:38:18.322 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:38:18.326 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:38:19.748 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:38:24.010 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 6db731c4-e343-4b66-aeee-b5a0ed93506c cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 15:38:25.064 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 15:38:25.068 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 6736.6713ms
+2025-02-07 15:38:25.071 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:38:25.076 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 6764.8446ms
+2025-02-07 15:39:03.749 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 102
+2025-02-07 15:39:03.760 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:39:03.763 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:39:03.766 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:39:05.754 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:45:03.888 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:45:03.957 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:45:03.960 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:45:03.964 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:45:15.213 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 103
+2025-02-07 15:45:15.254 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:45:15.273 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:45:15.294 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:45:15.724 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:45:15.743 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 443.3354ms
+2025-02-07 15:45:15.748 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:45:15.756 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 548.4043ms
+2025-02-07 15:45:28.873 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 105
+2025-02-07 15:45:28.880 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:45:28.884 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:45:28.887 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:45:31.410 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:47:40.716 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 730838d0-4e89-4a1f-a04e-91acb390d9d1 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 15:47:40.724 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 15:47:40.739 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 131848.0885ms
+2025-02-07 15:47:40.743 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:47:40.746 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 131873.7481ms
+2025-02-07 15:49:42.379 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:49:42.441 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:49:42.445 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:49:42.448 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:53:28.927 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 105
+2025-02-07 15:53:28.974 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:53:28.994 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:53:29.020 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:53:31.346 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:55:29.721 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:55:29.793 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:55:29.796 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:55:29.822 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:57:38.281 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 15:57:38.343 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 15:57:38.345 -03:00 [INF] Hosting environment: Development
+2025-02-07 15:57:38.372 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 15:57:57.480 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 15:57:57.734 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 258.8644ms
+2025-02-07 15:57:57.813 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 15:57:57.826 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 13.3219ms
+2025-02-07 15:57:57.841 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 15:57:57.881 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.2134ms
+2025-02-07 15:57:57.989 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 15:57:58.005 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.2074ms
+2025-02-07 15:58:02.205 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 15:58:02.224 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:58:02.237 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:58:02.266 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:58:08.846 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:58:08.866 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 6590.2989ms
+2025-02-07 15:58:08.870 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:58:08.873 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 6668.6705ms
+2025-02-07 15:58:09.575 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 15:58:09.597 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 21.8606ms
+2025-02-07 15:58:09.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 15:58:09.640 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 15:58:09.646 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 8.8502ms
+2025-02-07 15:58:09.671 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.3167ms
+2025-02-07 15:58:09.731 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 15:58:09.742 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.4515ms
+2025-02-07 15:58:21.269 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 91
+2025-02-07 15:58:21.274 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:58:21.276 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:58:21.284 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:58:21.294 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:58:21.300 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 10.8483ms
+2025-02-07 15:58:21.304 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:58:21.306 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 37.5483ms
+2025-02-07 15:58:29.496 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 87
+2025-02-07 15:58:29.501 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:58:29.504 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:58:29.507 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:58:29.513 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 15:58:29.516 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 6.0904ms
+2025-02-07 15:58:29.521 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:58:29.524 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 28.308ms
+2025-02-07 15:59:30.452 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 110
+2025-02-07 15:59:30.457 -03:00 [INF] CORS policy execution successful.
+2025-02-07 15:59:30.459 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:59:30.462 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 15:59:32.417 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 15:59:39.704 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 678636f8-6acd-4363-bcf1-e98236b1f3e9 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 15:59:40.590 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 15:59:42.124 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 11658.3771ms
+2025-02-07 15:59:42.128 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 15:59:42.131 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 11679.066ms
+2025-02-07 16:00:14.112 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 113
+2025-02-07 16:00:14.118 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:00:14.122 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:00:14.125 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:00:14.131 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 16:00:14.134 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 4.4014ms
+2025-02-07 16:00:14.138 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:00:14.142 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 29.7827ms
+2025-02-07 16:00:35.718 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 105
+2025-02-07 16:00:35.729 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:00:35.731 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:00:35.734 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:00:37.823 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:00:48.995 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 1a434449-491c-4860-872f-2e450050a016 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 16:00:49.004 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 16:00:49.008 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 13269.9711ms
+2025-02-07 16:00:49.011 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:00:49.016 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 13298.0761ms
+2025-02-07 16:01:35.333 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 105
+2025-02-07 16:01:35.343 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:01:35.346 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:01:35.349 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:01:37.097 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:01:38.505 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente a4fb75de-3780-4395-b899-75c04bb1c36d cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 16:01:38.509 -03:00 [INF] Executing OkObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 16:01:38.513 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 3158.9801ms
+2025-02-07 16:01:38.516 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:01:38.519 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 200 null application/json; charset=utf-8 3187.4592ms
+2025-02-07 16:01:46.350 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 16:01:46.435 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:01:46.440 -03:00 [INF] Hosting environment: Development
+2025-02-07 16:01:46.445 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 16:01:52.721 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 106
+2025-02-07 16:01:52.764 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:01:52.784 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:01:52.815 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:01:57.105 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:01:58.590 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 5769.1197ms
+2025-02-07 16:01:58.595 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:01:58.618 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+PosTech.Hackathon.Pacientes.Domain.Exceptions.PersistencyException: Já existe um paciente cadastrado com esse CPF.
+   at PosTech.Hackathon.Pacientes.Infrastructure.Persistence.PacienteRepository.AddPacienteAsync(Paciente paciente) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\04-Infrastructure\Persistency\PacienteRepository.cs:line 25
+   at PosTech.Hackathon.Pacientes.Application.UseCases.SavePacienteUseCase.SaveNewPacienteAsync(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\02-Application\UseCases\SavePacienteUseCase.cs:line 33
+   at PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Controllers\PacientesController.cs:line 24
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Program.cs:line 66
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-07 16:01:58.648 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 500 null text/plain; charset=utf-8 5935.4641ms
+2025-02-07 16:03:32.825 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 16:03:32.890 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:03:32.894 -03:00 [INF] Hosting environment: Development
+2025-02-07 16:03:32.897 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 16:03:40.986 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 106
+2025-02-07 16:03:41.074 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:03:41.108 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:03:41.143 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:03:44.891 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:03:53.480 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 12328.319ms
+2025-02-07 16:03:53.486 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:03:53.531 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+PosTech.Hackathon.Pacientes.Domain.Exceptions.PersistencyException: Já existe um paciente cadastrado com esse CPF.
+   at PosTech.Hackathon.Pacientes.Infrastructure.Persistence.PacienteRepository.AddPacienteAsync(Paciente paciente) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\04-Infrastructure\Persistency\PacienteRepository.cs:line 25
+   at PosTech.Hackathon.Pacientes.Application.UseCases.SavePacienteUseCase.SaveNewPacienteAsync(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\02-Application\UseCases\SavePacienteUseCase.cs:line 33
+   at PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Controllers\PacientesController.cs:line 24
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Program.cs:line 66
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-07 16:03:53.562 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 500 null text/plain; charset=utf-8 12579.4789ms
+2025-02-07 16:05:13.823 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 16:05:13.878 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:05:13.883 -03:00 [INF] Hosting environment: Development
+2025-02-07 16:05:13.886 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 16:05:19.026 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 106
+2025-02-07 16:05:19.056 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:05:19.065 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:05:19.081 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:05:20.839 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:05:21.830 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 2742.6626ms
+2025-02-07 16:05:21.834 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:05:21.852 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+PosTech.Hackathon.Pacientes.Domain.Exceptions.PersistencyException: Já existe um paciente cadastrado com esse CPF.
+   at PosTech.Hackathon.Pacientes.Infrastructure.Persistence.PacienteRepository.AddPacienteAsync(Paciente paciente) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\04-Infrastructure\Persistency\PacienteRepository.cs:line 25
+   at PosTech.Hackathon.Pacientes.Application.UseCases.SavePacienteUseCase.SaveNewPacienteAsync(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\02-Application\UseCases\SavePacienteUseCase.cs:line 33
+   at PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Controllers\PacientesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Program.cs:line 66
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-07 16:05:21.881 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 500 null text/plain; charset=utf-8 2857.9376ms
+2025-02-07 16:05:28.114 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 106
+2025-02-07 16:05:28.121 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:05:28.126 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:05:28.129 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:05:28.135 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:06:03.157 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 35024.301ms
+2025-02-07 16:06:03.161 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:06:03.196 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+PosTech.Hackathon.Pacientes.Domain.Exceptions.PersistencyException: Já existe um paciente cadastrado com esse CPF.
+   at PosTech.Hackathon.Pacientes.Infrastructure.Persistence.PacienteRepository.AddPacienteAsync(Paciente paciente) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\04-Infrastructure\Persistency\PacienteRepository.cs:line 25
+   at PosTech.Hackathon.Pacientes.Application.UseCases.SavePacienteUseCase.SaveNewPacienteAsync(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\02-Application\UseCases\SavePacienteUseCase.cs:line 33
+   at PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post(CreatePacienteEvent request) in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Controllers\PacientesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API\Program.cs:line 66
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-07 16:06:03.210 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 500 null text/plain; charset=utf-8 35096.0427ms
+2025-02-07 16:10:06.048 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 16:10:06.115 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:10:06.119 -03:00 [INF] Hosting environment: Development
+2025-02-07 16:10:06.121 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 16:10:19.164 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 106
+2025-02-07 16:10:19.212 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:10:19.229 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:10:19.254 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:10:21.482 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:10:33.184 -03:00 [INF] Executing JsonResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[System.Exception, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 16:10:34.530 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 15269.9439ms
+2025-02-07 16:10:34.534 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:10:34.545 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 409 null application/json 15385.4873ms
+2025-02-07 16:11:22.788 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 100
+2025-02-07 16:11:22.799 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:11:22.811 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:22.814 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:11:22.833 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 16:11:22.853 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 34.8723ms
+2025-02-07 16:11:22.856 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:22.860 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 72.1123ms
+2025-02-07 16:11:32.627 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 99
+2025-02-07 16:11:32.632 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:11:32.636 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:32.638 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:11:32.644 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-07 16:11:32.647 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 5.7057ms
+2025-02-07 16:11:32.650 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:32.653 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 400 null application/problem+json; charset=utf-8 25.7192ms
+2025-02-07 16:11:38.803 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 100
+2025-02-07 16:11:38.810 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:11:38.814 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:38.816 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:11:38.820 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:11:40.731 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 4a2560b4-b630-4996-851e-b7cb89edb20e cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 16:11:40.735 -03:00 [INF] Executing ObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 16:11:40.743 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 1923.1005ms
+2025-02-07 16:11:40.747 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:40.754 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 201 null application/json; charset=utf-8 1951.246ms
+2025-02-07 16:11:45.055 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 100
+2025-02-07 16:11:45.065 -03:00 [INF] CORS policy execution successful.
+2025-02-07 16:11:45.067 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:45.070 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 16:11:45.074 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 16:11:46.110 -03:00 [INF] Executing JsonResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[System.Exception, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 16:11:46.118 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 1044.6486ms
+2025-02-07 16:11:46.121 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 16:11:46.124 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 409 null application/json 1068.6468ms
+2025-02-07 20:04:45.043 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 20:04:45.131 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 20:04:45.136 -03:00 [INF] Hosting environment: Development
+2025-02-07 20:04:45.139 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 20:27:03.205 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 20:27:03.300 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 20:27:03.305 -03:00 [INF] Hosting environment: Development
+2025-02-07 20:27:03.308 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 20:27:24.682 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 100
+2025-02-07 20:27:24.781 -03:00 [INF] CORS policy execution successful.
+2025-02-07 20:27:24.822 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 20:27:24.886 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 20:27:36.303 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 20:27:59.377 -03:00 [INF] Resultado da operação: DefaultOutput { Success = True, Message = Paciente 08cbf712-4c22-4fe5-adb9-a744d7737a88 cadastrado com sucesso., Data = , StatusCode = Created }
+2025-02-07 20:27:59.406 -03:00 [INF] Executing ObjectResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[PosTech.Hackathon.Pacientes.Domain.Responses.PacienteResponse, PosTech.Hackathon.Pacientes.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-07 20:27:59.453 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 34551.7035ms
+2025-02-07 20:27:59.459 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 20:27:59.478 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 201 null application/json; charset=utf-8 34804.7007ms
+2025-02-07 20:28:11.964 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/pacientes - application/json 105
+2025-02-07 20:28:11.981 -03:00 [INF] CORS policy execution successful.
+2025-02-07 20:28:12.003 -03:00 [INF] Executing endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 20:28:12.009 -03:00 [INF] Route matched with {action = "Post", controller = "Pacientes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(PosTech.GrupoOito.Hackathon.PacienteManagement.Events.CreatePacienteEvent) on controller PosTech.Hackathon.Pacientes.API.Controllers.PacientesController (PosTech.Hackathon.Pacientes.API).
+2025-02-07 20:28:12.024 -03:00 [INF] Recebendo requisição POST em /pacientes
+2025-02-07 20:28:27.327 -03:00 [INF] Executing JsonResult, writing value of type 'PosTech.Hackathon.Pacientes.Domain.Responses.DefaultOutput`1[[System.Exception, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-07 20:28:27.353 -03:00 [INF] Executed action PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API) in 15333.6428ms
+2025-02-07 20:28:27.364 -03:00 [INF] Executed endpoint 'PosTech.Hackathon.Pacientes.API.Controllers.PacientesController.Post (PosTech.Hackathon.Pacientes.API)'
+2025-02-07 20:28:27.376 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/pacientes - 409 null application/json 15412.7839ms
+2025-02-07 20:30:30.314 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 20:30:30.418 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 20:30:30.422 -03:00 [INF] Hosting environment: Development
+2025-02-07 20:30:30.446 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 20:30:49.348 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 20:30:49.567 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 20:30:49.571 -03:00 [INF] Hosting environment: Development
+2025-02-07 20:30:49.575 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 23:02:02.612 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 23:02:02.682 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 23:02:02.686 -03:00 [INF] Hosting environment: Development
+2025-02-07 23:02:02.689 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 23:02:28.104 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 23:02:28.308 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 207.8159ms
+2025-02-07 23:02:28.405 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 23:02:28.419 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 13.8811ms
+2025-02-07 23:02:28.476 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 23:02:28.538 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.7773ms
+2025-02-07 23:02:28.752 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 23:02:28.766 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.3003ms
+2025-02-07 23:03:15.632 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 23:03:15.723 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 23:03:15.727 -03:00 [INF] Hosting environment: Development
+2025-02-07 23:03:15.731 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 23:03:28.155 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 23:03:28.305 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 154.7752ms
+2025-02-07 23:03:28.341 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 23:03:28.341 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 23:03:28.353 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 12.7295ms
+2025-02-07 23:03:28.384 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.2048ms
+2025-02-07 23:03:28.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 23:03:28.427 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0374ms
+2025-02-07 23:03:34.992 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 23:03:35.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 18.916ms
+2025-02-07 23:03:35.069 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 23:03:35.075 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 6.1813ms
+2025-02-07 23:03:35.098 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 23:03:35.126 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.6277ms
+2025-02-07 23:03:35.206 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 23:03:35.214 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.1334ms
+2025-02-07 23:03:54.181 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 23:03:54.250 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 23:03:54.254 -03:00 [INF] Hosting environment: Development
+2025-02-07 23:03:54.257 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 23:03:54.588 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html/swagger - null null
+2025-02-07 23:03:54.730 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html/swagger - 404 0 null 145.5848ms
+2025-02-07 23:03:54.740 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5011/swagger/index.html/swagger, Response status code: 404
+2025-02-07 23:03:58.751 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html/swagger - null null
+2025-02-07 23:03:58.770 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html/swagger - 404 0 null 19.0618ms
+2025-02-07 23:03:58.776 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5011/swagger/index.html/swagger, Response status code: 404
+2025-02-07 23:04:02.169 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 23:04:02.249 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 80.9117ms
+2025-02-07 23:04:02.363 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 23:04:02.373 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 9.3297ms
+2025-02-07 23:04:02.376 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 23:04:02.417 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.5185ms
+2025-02-07 23:04:02.500 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 23:04:02.510 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.921ms
+2025-02-07 23:04:27.755 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 23:04:27.829 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 23:04:27.834 -03:00 [INF] Hosting environment: Development
+2025-02-07 23:04:27.838 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 23:05:18.105 -03:00 [INF] Now listening on: http://[::]:5011
+2025-02-07 23:05:18.172 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 23:05:18.175 -03:00 [INF] Hosting environment: Development
+2025-02-07 23:05:18.209 -03:00 [INF] Content root path: C:\repos\fiap\hackaton\Postech-4NETT-Hackathon\src\01-API
+2025-02-07 23:05:35.668 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-02-07 23:05:35.872 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 209.2319ms
+2025-02-07 23:05:35.977 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 23:05:35.987 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13814 application/javascript; charset=utf-8 10.8598ms
+2025-02-07 23:05:36.002 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-02-07 23:05:36.037 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1693ms
+2025-02-07 23:05:36.113 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-02-07 23:05:36.129 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.6122ms

@@ -1,9 +1,8 @@
 ﻿using PosTech.GrupoOito.Hackathon.PacienteManagement.Events;
 
-namespace PosTech.Hackathon.Pacientes.Domain.Interfaces
+namespace PosTech.Hackathon.Pacientes.Domain.Interfaces;
+
+public interface ISavePacientePublisher
 {
-    public interface ISavePacientePublisher
-    {
-        public Task<bool> PublishAsync(CreatePacienteEvent request);
-    }
+    public Task<bool> PublishAsync(CreatePacienteEvent request);
 }

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Dapper.Contrib.Extensions.Tablename" Version="1.1.1" />
+    <PackageReference Include="MongoDB.Bson" Version="3.1.0" />
   </ItemGroup>
 
 </Project>

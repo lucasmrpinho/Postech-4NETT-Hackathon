@@ -1,0 +1,83 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hackaton-dotnet-paciente
+  labels:
+    app: hackaton-dotnet-paciente
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hackaton-dotnet-paciente
+  template:
+    metadata:
+      labels:
+        app: hackaton-dotnet-paciente
+      annotations:
+        prometheus.io/scrape: "true" 
+        prometheus.io/path: "/metrics" 
+        prometheus.io/port: "5011" 
+    spec:
+      containers:
+        - name: container-hackaton-dotnet-paciente
+          image: lucasmrpinho/Postech-4NETT-Hackathon:latest
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 5011
+            initialDelaySeconds: 30
+            periodSeconds: 60
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 5011
+            initialDelaySeconds: 20
+            periodSeconds: 60
+            failureThreshold: 3
+          ports:
+            - containerPort: 5011
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Docker"
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "200m"
+              memory: "256Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-hackaton-dotnet-paciente
+  labels:
+    app: hackaton-dotnet-paciente
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 5011
+      nodePort: 31190
+  selector:
+    app: hackaton-dotnet-paciente
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: hpa-hackaton-dotnet-paciente
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: hackaton-dotnet-paciente
+  minReplicas: 1
+  maxReplicas: 4
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70

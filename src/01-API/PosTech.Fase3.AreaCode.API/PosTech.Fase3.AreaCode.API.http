@@ -1,6 +1,0 @@
-@PosTech.Fase3.AreaCode.API_HostAddress = http://localhost:5273
-
-GET {{PosTech.Fase3.AreaCode.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

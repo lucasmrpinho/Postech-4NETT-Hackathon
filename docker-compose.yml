@@ -1,0 +1,14 @@
+services:
+  
+  # .API Paciente
+  pacientes-api:
+    image: tatianacardoso/fiap-paciente-api:5
+    build:
+      context: .
+      dockerfile: src/01-API/Dockerfile
+    container_name: fiap-paciente-app
+    restart: always        
+    #environment:
+     # ASPNETCORE_ENVIRONMENT: "Docker" 
+
+ 

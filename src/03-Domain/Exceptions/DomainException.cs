@@ -1,31 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PosTech.Hackathon.Pacientes.Domain.Exceptions
+namespace PosTech.Hackathon.Pacientes.Domain.Exceptions;
+
+[ExcludeFromCodeCoverage]
+public class DomainException(string message) : Exception(message)
 {
-    [ExcludeFromCodeCoverage]
-    public class DomainException(string message) : Exception(message)
+    public static void ThrowWhen(bool invalidRule, string message)
     {
-        public static void ThrowWhen(bool invalidRule, string message)
+        if (invalidRule)
         {
-            if (invalidRule)
-            {
-                throw new DomainException(message);
-            }
+            throw new DomainException(message);
         }
+    }
 
 
-        public static void ThrowWhenThereAreErrorMessages(IEnumerable<ValidationResult> validationResults)
+    public static void ThrowWhenThereAreErrorMessages(IEnumerable<ValidationResult> validationResults)
+    {
+        if (validationResults.Any())
         {
-            if (validationResults.Any())
-            {
-                throw new DomainException(validationResults.ElementAt(0).ErrorMessage);
-            }
+            throw new DomainException(validationResults.ElementAt(0).ErrorMessage);
         }
     }
 }
