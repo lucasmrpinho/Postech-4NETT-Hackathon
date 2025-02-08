@@ -24,5 +24,9 @@ public class PacienteRepository : IPacienteRepository
         {
             throw new PersistencyException("Já existe um paciente cadastrado com esse CPF.");
         }
+        catch (Exception e)
+        {
+            throw e;
+        }
     }
 }

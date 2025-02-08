@@ -9,11 +9,11 @@ USER app
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
-COPY ["src/01-API/PosTech.Hackathon.Pacientes.API/PosTech.Hackathon.Pacientes.API.csproj", "src/01-API/PosTech.Hackathon.Pacientes.API/"]
+COPY ["src/01-API/PosTech.Hackathon.Pacientes.API.csproj", "src/01-API/"]
 
-RUN dotnet restore "src/01-API/PosTech.Hackathon.Pacientes.API/PosTech.Hackathon.Pacientes.API.csproj"
+RUN dotnet restore "src/01-API/PosTech.Hackathon.Pacientes.API.csproj"
 COPY . .
-WORKDIR "/src/src/01-API/PosTech.Hackathon.Pacientes.API"
+WORKDIR "/src/src/01-API/"
 RUN dotnet build "PosTech.Hackathon.Pacientes.API.csproj" -c $configuration -o /app/build
 
 FROM build AS publish
