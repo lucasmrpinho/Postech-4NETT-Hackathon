@@ -15,9 +15,11 @@ using PosTech.Hackathon.Pacientes.Infrastructure.Config;
 using PosTech.Hackathon.Pacientes.Infrastructure.Persistence;
 using Prometheus;
 using Serilog;
+using PosTech.Hackathon.Pacientes.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://*:5011");
+builder.WebHost.UseUrls("http://*:5013");
+
 builder.Configuration.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: false, reloadOnChange: true);
 var configuration = builder.Configuration;
 
@@ -92,6 +94,8 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.UseAuthorization();
 app.MapControllers();
+
+app.UseMiddleware<TokenValidationMiddleware>();
 
 app.Run();
 
