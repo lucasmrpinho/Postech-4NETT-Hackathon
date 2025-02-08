@@ -25,15 +25,4 @@ public class PacienteRepository : IPacienteRepository
             throw new PersistencyException("Já existe um paciente cadastrado com esse CPF.");
         }
     }
-
-
-    public async Task<List<Paciente>> GetAllPacientesAsync()
-    {
-        return await _pacienteCollection.Find(_ => true).ToListAsync();
-    }
-
-    public async Task<Paciente> GetPacienteByIdAsync(string id)
-    {
-        return await _pacienteCollection.Find(p => p.Id == id).FirstOrDefaultAsync();
-    }
 }

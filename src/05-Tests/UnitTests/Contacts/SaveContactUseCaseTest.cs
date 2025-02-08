@@ -49,7 +49,7 @@ public class SavePacienteUseCaseTest
     {
         // Arrange
         var request = GetRequest();
-        request.EmailPaciente = email;
+        request.Email = email;
 
         var publisher = GetMockPublisher(request);
 
@@ -77,7 +77,7 @@ public class SavePacienteUseCaseTest
     {
         // Arrange
         var request = GetRequest();
-        request.CPFPaciente = cpf;
+        request.Cpf = cpf;
 
         var publisher = GetMockPublisher(request);
 
@@ -101,10 +101,10 @@ public class SavePacienteUseCaseTest
     {
         return new()
         {
-            CPFPaciente = "72056525020",
-            NomePaciente = _faker.Name.FirstName(),
-            EmailPaciente = _faker.Internet.Email(),
-            SenhaPaciente = "Abcd7894",
+            Cpf = "72056525020",
+            Nome = _faker.Name.FirstName(),
+            Email = _faker.Internet.Email(),
+            Senha = "Abcd7894",
         };
     }
 }

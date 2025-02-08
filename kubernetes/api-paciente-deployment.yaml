@@ -1,26 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: techchallenge-dotnet-contactadd
+  name: hackaton-dotnet-paciente
   labels:
-    app: techchallenge-dotnet-contactadd
+    app: hackaton-dotnet-paciente
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: techchallenge-dotnet-contactadd
+      app: hackaton-dotnet-paciente
   template:
     metadata:
       labels:
-        app: techchallenge-dotnet-contactadd
+        app: hackaton-dotnet-paciente
       annotations:
         prometheus.io/scrape: "true" 
         prometheus.io/path: "/metrics" 
         prometheus.io/port: "5011" 
     spec:
       containers:
-        - name: container-techchallenge-dotnet-contactadd
-          image: lruizd/techchallenge-dotnet-contactadd:latest
+        - name: container-hackaton-dotnet-paciente
+          image: lucasmrpinho/Postech-4NETT-Hackathon:latest
           livenessProbe:
             httpGet:
               path: /health
@@ -51,9 +51,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: service-techchallenge-dotnet-contactadd
+  name: service-hackaton-dotnet-paciente
   labels:
-    app: techchallenge-dotnet-contactadd
+    app: hackaton-dotnet-paciente
 spec:
   type: NodePort
   ports:
@@ -61,17 +61,17 @@ spec:
       targetPort: 5011
       nodePort: 31190
   selector:
-    app: techchallenge-dotnet-contactadd
+    app: hackaton-dotnet-paciente
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-techchallenge-dotnet-contactadd
+  name: hpa-hackaton-dotnet-paciente
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: techchallenge-dotnet-contactadd
+    name: hackaton-dotnet-paciente
   minReplicas: 1
   maxReplicas: 4
   metrics:
